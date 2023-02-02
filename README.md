@@ -7,7 +7,7 @@
   A — While there are still  characters to be read in the expression
            1.1 Get the next sub expression.
            1.2 If the sub expression  is:
-              A number: push it onto the oprandsStack  stack.
+             ## A number: push it onto the oprandsStack  stack.
               A variable: get its value, and push into the oprandsStack stack.
               A left parenthesis: push it onto the operatorStack.
               A right parenthesis:

@@ -21,8 +21,7 @@ namespace Calculator
             return false;
 
         }
-     
-        
+ 
         // calculate the result for each operator and return it.
         public static int operation(char op,
                                 int operand1, int operand2)

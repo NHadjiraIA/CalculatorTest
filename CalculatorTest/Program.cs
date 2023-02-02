@@ -24,7 +24,6 @@ namespace CalculatorTest // Note: actual namespace depends on the project name.
                 Console.WriteLine("entre your expression: ");
                 try
                 {
-
                     string expr = Console.ReadLine();
                     int result = Calculator.Calculate.operationResult (expr);
                     Console.WriteLine(result);

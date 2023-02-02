@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace CalculatorTest
+namespace Calculator
 {
 	public class Calculate
 	{
@@ -13,21 +13,21 @@ namespace CalculatorTest
         {
             char[] subExpression = expression.ToCharArray();
 
-            // Stack for operands: 'values'
-            Stack<int> values = new Stack<int>();
+            // Stack for operands: 'oprandsStack'
+            Stack<int> oprandsStack = new Stack<int>();
 
             // Stack for Operators: 'Operators'
             Stack<char> Operators = new Stack<char>();
 
             for (int i = 0; i < subExpression.Length; i++)
             {
-                // Current token is a space
+                // Current subExpression is a space
                 if (subExpression[i] == ' ')
                 {
                     continue;
                 }
 
-                // if the token is a operand, push it to stack for operand
+                // if the subExpression is a operand, push it to stack for operand
                 if (subExpression[i] >= '0' && subExpression[i] <= '9')
                 {
                     StringBuilder sbuf = new StringBuilder();
@@ -39,67 +39,63 @@ namespace CalculatorTest
                     {
                         sbuf.Append(subExpression[i++]);
                     }
-                    values.Push(int.Parse(sbuf.ToString()));
+                    oprandsStack.Push(int.Parse(sbuf.ToString()));
  
-                    i--;
+                     i--;
                 }
 
-                // Current token is an opening brace
+                // Current subExpression is an opening brace
                 // push it to 'Operators'
                 else if (subExpression[i] == '(')
                 {
                     Operators.Push(subExpression[i]);
                 }
 
-                // Closing brace encountered,
-                // solve entire brace
+                // We find closing brace.
+                // calculate what we have between brace
                 else if (subExpression[i] == ')')
                 {
                     while (Operators.Peek() != '(')
                     {
-                         
-                            values.Push(Operator.operation(Operators.Pop(),
-                                            values.Pop(),
-                                            values.Pop()));
+
+                        oprandsStack.Push(Operator.operation(Operators.Pop(),
+                                            oprandsStack.Pop(),
+                                            oprandsStack.Pop()));
                          
                     }
                     Operators.Pop();
                 }
 
-                // Current token is an operator.
-
-
+                // Current subExpression is an operator.
                 else if (Operator.findOperator(subExpression[i]))
                 {
 
-                    // While top of 'Operators' has same or greater priority to current token, which is an operator.
-                    // Apply operator on top of 'Operators' to two top elements in values stack and push the result to operands
+                    // While top of 'Operators' has same or greater priority to current subExpression, which is an operator.
+                    // Apply operator on top of the stack 'Operators' to two top elements in oprandsStack stack and push the result to operands
                     while (Operators.Count > 0 &&
                             Operand.checkPriorityOfOprend(subExpression[i],
                                         Operators.Peek()))
                     {
-                        values.Push(Operator.operation(Operators.Pop(),
-                                        values.Pop(),
-                                        values.Pop()));
+                        oprandsStack.Push(Operator.operation(Operators.Pop(),
+                                        oprandsStack.Pop(),
+                                        oprandsStack.Pop()));
                     }
 
-                    // Push current token to 'Operators'.
+                    // Push current subExpression to 'Operators'.
                     Operators.Push(subExpression[i]);
                 }
             }
 
-            // Entire expression has been
-            // parsed at this point, apply remaining
-            // ops to remaining values
+            // do the evaluation to the reste of the operends
             while (Operators.Count > 0)
             {
-                values.Push(Operator.operation(Operators.Pop(),
-                                values.Pop(),
-                                values.Pop()));
+                oprandsStack.Push(Operator.operation(Operators.Pop(),
+                                oprandsStack.Pop(),
+                                oprandsStack.Pop()));
             }
  
             //pop the result in operands and  return it
-            return values.Pop();
+            return oprandsStack.Pop();
         }
 
 

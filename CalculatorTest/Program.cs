@@ -26,7 +26,7 @@ namespace CalculatorTest // Note: actual namespace depends on the project name.
                 {
 
                     string expr = Console.ReadLine();
-                    int result = Calculate.operationResult(expr);
+                    int result = Calculator.Calculate.operationResult (expr);
                     Console.WriteLine(result);
                 }
                 catch (Exception ex)

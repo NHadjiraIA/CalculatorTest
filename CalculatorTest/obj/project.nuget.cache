@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fQzge4HtCFs1D/uFcEHCgJ1sKKesRyFEMda5+MR0HvosEyCaByw9rGf1SfFcmVAe73TgzunwMy3V4ixIkZKFAA==",
+  "dgSpecHash": "3wf87ko+1SrXRrAKg25SG3DJltf67tilqLfefSkG/ovlvbpkJaMUioD2P8P2siV0JHYpFLmVSQB8b32Z/xT1UQ==",
   "success": true,
-  "projectFilePath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/CalculatorTest.csproj",
+  "projectFilePath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace CalculatorTest
+namespace Calculator
 {
 	public class Operand
 	{

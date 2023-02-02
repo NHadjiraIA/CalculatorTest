@@ -1,0 +1,15 @@
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/bin/Debug/net6.0/CalculatorTest
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/bin/Debug/net6.0/CalculatorTest.deps.json
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/bin/Debug/net6.0/CalculatorTest.runtimeconfig.json
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/bin/Debug/net6.0/CalculatorTest.dll
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/bin/Debug/net6.0/ref/CalculatorTest.dll
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/bin/Debug/net6.0/CalculatorTest.pdb
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/Debug/net6.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/Debug/net6.0/Calculator.AssemblyInfoInputs.cache
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/Debug/net6.0/Calculator.AssemblyInfo.cs
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/Debug/net6.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/Debug/net6.0/CalculatorTest.dll
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/Debug/net6.0/ref/CalculatorTest.dll
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/Debug/net6.0/CalculatorTest.pdb
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/Debug/net6.0/Calculator.genruntimeconfig.cache
+/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/Debug/net6.0/Calculator.csproj.AssemblyReference.cache

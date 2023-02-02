@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Text;
 
-namespace CalculatorTest
+namespace Calculator
 {
     
     public class Operator

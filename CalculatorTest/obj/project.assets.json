@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/CalculatorTest.csproj",
-      "projectName": "CalculatorTest",
-      "projectPath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/CalculatorTest.csproj",
+      "projectUniqueName": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/Calculator.csproj",
+      "projectName": "Calculator",
+      "projectPath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/Calculator.csproj",
       "packagesPath": "/Users/nadjibbenkhellat/.nuget/packages/",
       "outputPath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/",
       "projectStyle": "PackageReference",

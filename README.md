@@ -88,9 +88,7 @@ OprandStack 
 # Features
 # Getting started
 Prerequisites:
-   1. Your computer must be running Windows 11.
-
-   2.  Install the latest version of Visual Studio (the free community edition is sufficient).
-   3.  install .Net in your machine
-   4. Get the code:   git clone https://github.com/NHadjiraIA/CalculatorTest
-   5. open the project in Visual Studio to build and run the CalculatorTest.
+   1.  Install the latest version of Visual Studio (the free community edition is sufficient).
+   2.  install .Net(SDK) on your machine
+   3. Get the code:   git clone https://github.com/NHadjiraIA/CalculatorTest
+   4. open the Solution in Visual Studio to build and run.

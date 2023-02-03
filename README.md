@@ -32,7 +32,7 @@
                 4. We push the result onto the oprandsStack stack.
  3. At this point the operator stack should be empty, and the oprandsStack stack should have only one value , which is the final result.
 
-Example : ( + (* 4 5) (* 8 7))
+  * Example : ( + (* 4 5) (* 8 7))
 
  Frist step:
 opratorStack
@@ -86,6 +86,11 @@ opratorStack 
 OprandStack 
 76 —> the result
 # Features
+   1. Add others operations and make it accept inputting negative numbers.
+   2. Scientific Calculator functionality which offers expanded operations .
+   3. Programmer Calculator functionality which offers common mathematical operations for developers including conversion between common bases.
+   4.  Calculation history and memory capabilities.
+   5.  Conversion between many units of measurement.
 # Getting started
 Prerequisites:
    1.  Install the latest version of Visual Studio (the free community edition is sufficient).

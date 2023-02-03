@@ -21,11 +21,12 @@ namespace CalculatorTest // Note: actual namespace depends on the project name.
                 Console.WriteLine("***************************************** ");
                 Console.WriteLine("*********S-expression calculator********* ");
                 Console.WriteLine("***************************************** ");
-                Console.WriteLine("entre your expression: ");
+                Console.WriteLine("enter your expression: ");
                 try
                 {
                     string expr = Console.ReadLine();
                     int result = Calculator.Calculate.operationResult (expr);
+                    Console.WriteLine("The result is: ");
                     Console.WriteLine(result);
                 }
                 catch (Exception ex)

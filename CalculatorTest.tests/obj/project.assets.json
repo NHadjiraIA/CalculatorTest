@@ -6126,11 +6126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest.tests/CalculatorTest.tests.csproj",
+      "projectUniqueName": "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest.tests/CalculatorTest.tests.csproj",
       "projectName": "CalculatorTest.tests",
-      "projectPath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest.tests/CalculatorTest.tests.csproj",
+      "projectPath": "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest.tests/CalculatorTest.tests.csproj",
       "packagesPath": "/Users/nadjibbenkhellat/.nuget/packages/",
-      "outputPath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest.tests/obj/",
+      "outputPath": "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest.tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nadjibbenkhellat/.nuget/NuGet/NuGet.Config"
@@ -6145,8 +6145,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/Calculator.csproj": {
-              "projectPath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/Calculator.csproj"
+            "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest/Calculator.csproj": {
+              "projectPath": "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest/Calculator.csproj"
             }
           }
         }

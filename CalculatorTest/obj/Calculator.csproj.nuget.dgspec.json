@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/Calculator.csproj": {}
+    "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest/Calculator.csproj": {}
   },
   "projects": {
-    "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/Calculator.csproj": {
+    "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest/Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/Calculator.csproj",
-        "projectName": "Calculator",
-        "projectPath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/Calculator.csproj",
+        "projectUniqueName": "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest/Calculator.csproj",
+        "projectName": "CalculatorTest",
+        "projectPath": "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest/Calculator.csproj",
         "packagesPath": "/Users/nadjibbenkhellat/.nuget/packages/",
-        "outputPath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest/obj/",
+        "outputPath": "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nadjibbenkhellat/.nuget/NuGet/NuGet.Config"

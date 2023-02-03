@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c8ifrX/dHwNy6vPLcIwdq5x1Mr9hdNBxOy3pcxJ3m/nS7I1DiSHrbrpdRiUIkS/BVm5Qa9FhHF374qo5XcIbJg==",
+  "dgSpecHash": "RnVvJWgVktDv2b7HadF4dv3NHq09np+s876dfnH/N+L6Z8XtphroaXW+bIX/mRDH6pZMEFDMjTiIlFtLyY78oQ==",
   "success": true,
-  "projectFilePath": "/Users/nadjibbenkhellat/Projects/CalculatorTest/CalculatorTest.tests/CalculatorTest.tests.csproj",
+  "projectFilePath": "/Users/nadjibbenkhellat/Desktop/try/CalculatorTest/CalculatorTest.tests/CalculatorTest.tests.csproj",
   "expectedPackageFiles": [
     "/Users/nadjibbenkhellat/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/Users/nadjibbenkhellat/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",

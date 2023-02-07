@@ -91,6 +91,7 @@ OprandStack 
    3. Programmer Calculator functionality which offers common mathematical operations for developers including conversion between common bases.
    4.  Calculation history and memory capabilities.
    5.  Conversion between many units of measurement.
+   6. Error handling (add specific error for each case for example if the user use a symbol or letter instead of number I need to display a error message that say this expression is not valid)
 # Getting started
 Prerequisites:
    1.  Install the latest version of Visual Studio (the free community edition is sufficient).
